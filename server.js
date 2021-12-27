@@ -32,7 +32,7 @@ app.get('/states/:num', function (req, res) {
     });
 });
 
-app.listen(process.env.PORT, process.env.HOST, () => {
+app.listen(process.env.PORT, () => {
     console.log(
         `Сервер запущен по http://${process.env.HOST}:${process.env.PORT}/`
     );
