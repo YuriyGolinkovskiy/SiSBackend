@@ -1,6 +1,6 @@
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (3, 0, 4, false, 'Да');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (2, 0, 1, false, 'Нет');
-INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (1, 0, null, false, 'Вы готовы часто просматривать стоимость билетов?');
+INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (1, 0, null, false, 'Вы готовы уделить время поиску билетов?');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (4, 1, null, false, 'Вы ищете дещёвые билеты?');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (5, 1, 5, false, 'Да');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (6, 1, 3, false, 'Нет');
