@@ -4,7 +4,6 @@ INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (1, 
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (4, 1, null, false, 'Вы ищете дещёвые билеты?');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (5, 1, 5, false, 'Да');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (6, 1, 3, false, 'Нет');
-INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (7, 2, null, true, 'Ваш выбор это macOS');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (8, 3, null, false, 'Выберите тип вагона');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (23, 3, 10, false, 'Плацкарт');
 INSERT INTO public.state_tables (id, num, next_num, is_last, answer) VALUES (24, 3, 11, false, 'СВ');
