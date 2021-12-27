@@ -10,13 +10,14 @@ const express = require('express');
 const app = express();
 
 app.use(cors());
-
+const PORT = process.env.PORT || 8888;
 connectDb();
 /**
  * Вернет все объекты из state_table с указанным num
  */
 app.get('/', function (req, res) {
     console.log('work');
+    return res.json('work api');
 });
 
 app.get('/states/:num', function (req, res) {
@@ -32,7 +33,7 @@ app.get('/states/:num', function (req, res) {
     });
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
     console.log(
         `Сервер запущен по http://${process.env.HOST}:${process.env.PORT}/`
     );
